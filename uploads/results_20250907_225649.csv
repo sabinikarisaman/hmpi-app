@@ -1,0 +1,6 @@
+Sample_ID,Latitude,Longitude,HPI,HEI,Cd,Categories
+S001,28.6139,77.209,56.87380952380953,5.687380952380953,-4.312619047619048,"['Low pollution (HPI)', 'Low contamination (HEI)', 'Low degree of contamination (Cd)']"
+S002,28.6129,77.2095,42.37619047619047,4.237619047619048,-5.762380952380953,"['Low pollution (HPI)', 'Low contamination (HEI)', 'Low degree of contamination (Cd)']"
+S003,28.6145,77.2085,92.53571428571428,9.253571428571428,-0.7464285714285719,"['Low pollution (HPI)', 'Low contamination (HEI)', 'Low degree of contamination (Cd)']"
+S004,28.611,77.2102,25.511904761904763,2.551190476190476,-7.4488095238095235,"['Low pollution (HPI)', 'Low contamination (HEI)', 'Low degree of contamination (Cd)']"
+S005,28.6152,77.2078,154.26190476190476,15.426190476190476,5.426190476190476,"['Medium pollution (HPI)', 'Medium contamination (HEI)', 'Considerable degree of contamination (Cd)']"

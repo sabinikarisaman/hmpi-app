@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_60996718aadcff927d8d1bdb5a38b711 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_60996718aadcff927d8d1bdb5a38b711" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_60996718aadcff927d8d1bdb5a38b711 = L.map(
+                "map_60996718aadcff927d8d1bdb5a38b711",
+                {
+                    center: [28.6135, 77.209],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9a813b1684d92e59b34e4c1e1d0672a1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_60996718aadcff927d8d1bdb5a38b711);
+        
+    
+            var marker_9e071f1b0875b9558aeb133ce2dc2d54 = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(map_60996718aadcff927d8d1bdb5a38b711);
+        
+    
+            var icon_4cd2884b8195377551ba8cebf934ca86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9e071f1b0875b9558aeb133ce2dc2d54.setIcon(icon_4cd2884b8195377551ba8cebf934ca86);
+        
+    
+        var popup_6026f36da606882714b859bf3db4bd5c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ffddad67aaa36e835ebd2cc1c43c909e = $(`<div id="html_ffddad67aaa36e835ebd2cc1c43c909e" style="width: 100.0%; height: 100.0%;">                         Sample ID: S001<br>                         HPI: 56.87<br>                         HEI: 5.69<br>                         Cd: -4.31<br>                         Quality: Low pollution (HPI), Low contamination (HEI), Low degree of contamination (Cd)                         </div>`)[0];
+                popup_6026f36da606882714b859bf3db4bd5c.setContent(html_ffddad67aaa36e835ebd2cc1c43c909e);
+            
+        
+
+        marker_9e071f1b0875b9558aeb133ce2dc2d54.bindPopup(popup_6026f36da606882714b859bf3db4bd5c)
+        ;
+
+        
+    
+    
+            var marker_f9aa1e940502f53bb6986999c1a5889c = L.marker(
+                [28.6129, 77.2095],
+                {}
+            ).addTo(map_60996718aadcff927d8d1bdb5a38b711);
+        
+    
+            var icon_84ef8c799b16b19c59efb7cd18240aea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f9aa1e940502f53bb6986999c1a5889c.setIcon(icon_84ef8c799b16b19c59efb7cd18240aea);
+        
+    
+        var popup_f3063a5c73e57b84f800c5c378bd357c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d712a20c9f02b7eefb7b29029188cd7b = $(`<div id="html_d712a20c9f02b7eefb7b29029188cd7b" style="width: 100.0%; height: 100.0%;">                         Sample ID: S002<br>                         HPI: 42.38<br>                         HEI: 4.24<br>                         Cd: -5.76<br>                         Quality: Low pollution (HPI), Low contamination (HEI), Low degree of contamination (Cd)                         </div>`)[0];
+                popup_f3063a5c73e57b84f800c5c378bd357c.setContent(html_d712a20c9f02b7eefb7b29029188cd7b);
+            
+        
+
+        marker_f9aa1e940502f53bb6986999c1a5889c.bindPopup(popup_f3063a5c73e57b84f800c5c378bd357c)
+        ;
+
+        
+    
+    
+            var marker_00d73039eb3352a64aea0cf198d2ed7a = L.marker(
+                [28.6145, 77.2085],
+                {}
+            ).addTo(map_60996718aadcff927d8d1bdb5a38b711);
+        
+    
+            var icon_d04a8cf259abef2dd39404c695f4d299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00d73039eb3352a64aea0cf198d2ed7a.setIcon(icon_d04a8cf259abef2dd39404c695f4d299);
+        
+    
+        var popup_e60afe5cfb8c8f0e8c7f72e41a36633e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e3731f4ba14ae05f3434055b25b46740 = $(`<div id="html_e3731f4ba14ae05f3434055b25b46740" style="width: 100.0%; height: 100.0%;">                         Sample ID: S003<br>                         HPI: 92.54<br>                         HEI: 9.25<br>                         Cd: -0.75<br>                         Quality: Low pollution (HPI), Low contamination (HEI), Low degree of contamination (Cd)                         </div>`)[0];
+                popup_e60afe5cfb8c8f0e8c7f72e41a36633e.setContent(html_e3731f4ba14ae05f3434055b25b46740);
+            
+        
+
+        marker_00d73039eb3352a64aea0cf198d2ed7a.bindPopup(popup_e60afe5cfb8c8f0e8c7f72e41a36633e)
+        ;
+
+        
+    
+    
+            var marker_cc2be36defc1b16c7c231315b4dd4eef = L.marker(
+                [28.611, 77.2102],
+                {}
+            ).addTo(map_60996718aadcff927d8d1bdb5a38b711);
+        
+    
+            var icon_2f59fbf2f13579f466b361e3123ed7d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc2be36defc1b16c7c231315b4dd4eef.setIcon(icon_2f59fbf2f13579f466b361e3123ed7d4);
+        
+    
+        var popup_d0d0ffd323c8b145727c9d77761454d9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_383d8ec8f4bca8c6eddd02da5330fa6a = $(`<div id="html_383d8ec8f4bca8c6eddd02da5330fa6a" style="width: 100.0%; height: 100.0%;">                         Sample ID: S004<br>                         HPI: 25.51<br>                         HEI: 2.55<br>                         Cd: -7.45<br>                         Quality: Low pollution (HPI), Low contamination (HEI), Low degree of contamination (Cd)                         </div>`)[0];
+                popup_d0d0ffd323c8b145727c9d77761454d9.setContent(html_383d8ec8f4bca8c6eddd02da5330fa6a);
+            
+        
+
+        marker_cc2be36defc1b16c7c231315b4dd4eef.bindPopup(popup_d0d0ffd323c8b145727c9d77761454d9)
+        ;
+
+        
+    
+    
+            var marker_ab5326e0471ab615b92964d2e5d162ef = L.marker(
+                [28.6152, 77.2078],
+                {}
+            ).addTo(map_60996718aadcff927d8d1bdb5a38b711);
+        
+    
+            var icon_03e44cc4663045cb0deaf04f369bb767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ab5326e0471ab615b92964d2e5d162ef.setIcon(icon_03e44cc4663045cb0deaf04f369bb767);
+        
+    
+        var popup_25819826179b058518a57b33a02d2481 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_edabe6e01d621fffbeb1da7c9b40e2fd = $(`<div id="html_edabe6e01d621fffbeb1da7c9b40e2fd" style="width: 100.0%; height: 100.0%;">                         Sample ID: S005<br>                         HPI: 154.26<br>                         HEI: 15.43<br>                         Cd: 5.43<br>                         Quality: Medium pollution (HPI), Medium contamination (HEI), Considerable degree of contamination (Cd)                         </div>`)[0];
+                popup_25819826179b058518a57b33a02d2481.setContent(html_edabe6e01d621fffbeb1da7c9b40e2fd);
+            
+        
+
+        marker_ab5326e0471ab615b92964d2e5d162ef.bindPopup(popup_25819826179b058518a57b33a02d2481)
+        ;
+
+        
+    
+</script>
+</html>
